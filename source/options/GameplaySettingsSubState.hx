@@ -96,33 +96,33 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 			'Changes the amount of time you have\nfor hitting a "Sick!" in miliseconds.',
 			'sickWindow',
 			'int',
-			45);
+			59);
 		option.displayFormat = '%vms';
 		option.scrollSpeed = 15;
 		option.minValue = 15;
-		option.maxValue = 45;
+		option.maxValue = 59;
 		addOption(option);
 
 		var option:Option = new Option('Good Hit Window',
 			'Changes the amount of time you have\nfor hitting a "Good" in miliseconds.',
 			'goodWindow',
 			'int',
-			90);
+			120);
 		option.displayFormat = '%vms';
 		option.scrollSpeed = 30;
 		option.minValue = 15;
-		option.maxValue = 90;
+		option.maxValue = 120;
 		addOption(option);
 
 		var option:Option = new Option('Bad Hit Window',
 			'Changes the amount of time you have\nfor hitting a "Bad" in miliseconds.',
 			'badWindow',
 			'int',
-			135);
+			170);
 		option.displayFormat = '%vms';
 		option.scrollSpeed = 60;
 		option.minValue = 15;
-		option.maxValue = 135;
+		option.maxValue = 170;
 		addOption(option);
 
 		var option:Option = new Option('Safe Frames',
